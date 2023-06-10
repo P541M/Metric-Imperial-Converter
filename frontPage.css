@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+h1{
+    color: azure;
+    font-size: 40px;
+    font-family: geologica;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#converterCol{
+    background: linear-gradient(45deg, rgb(0, 123, 255), #508dff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h3{
+    color: azure;
+    font-size: 25px;
+    font-family: geologica;
+    font-weight: 300;
+    text-align: center;   
+}
+
+button{
+    display: inline-block;
+    padding: 8px 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 100px;
+    background-color: azure;
+    color: rgb(45, 45, 45);
+}
+
+#centerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#metricButt{
+    margin: 15px;
+}
+
+#imperialButt{
+    margin: 15px;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+a{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#mail{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

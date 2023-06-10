@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+h1{
+    color: azure;
+    font-size: 40px;
+    font-family: geologica;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+}
+
+p{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.fa-house{
+    color: aliceblue;
+}
+
+#homeIcon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 40px;
+}
+
+#converterCol{
+    background: linear-gradient(45deg, rgb(0, 123, 255), #508dff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gridChild{
+    flex: 1 0 40%;
+    margin: 10px;
+    max-width: 600px;
+}
+
+h2{
+    color: azure;
+    font-size: 30px;
+    font-family: geologica;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    color: azure;
+    font-size: 25px;
+    font-family: geologica;
+    font-weight: 300;
+    text-align: center;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 7px;
+    width: 110px;
+    background-color: aliceblue;
+}
+
+#lengthCenter{
+    text-align: center;
+}
+
+#tempWeightCenter{
+    text-align: center;
+}
+
+#centerConvertButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 7px;
+    margin:15px;;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#otherButton{
+    width: 160px;
+}
+
+button{
+
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 7px;
+    margin:15px;
+    width: 95px;
+    background-color: azure;
+    color: rgb(45, 45, 45);
+    
+}

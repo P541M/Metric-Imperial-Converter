@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Metric Converter</title>
+    <link type="image/x-icon" sizes="32x32" rel="shortcut icon" href="Images/icons8-calculator-32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="/scriptLength.js"></script>
+    <script src="/scriptTempNWeight.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5514c3df86.js" crossorigin="anonymous"></script>
+
+    
+
+</head>
+<body>
+    <div>
+        <h1>Metric to Imperial <span id="converterCol">Converter</span></h1>
+    </div>
+
+    <p><em>Listed are the most common conversions done globally. Other conversions will be added in future iterations.</em></p>
+
+    <div id="homeIcon">
+        <a href="/index.html">
+            <i class="fa-solid fa-house fa-lg"></i>
+        </a>
+    </div>
+
+    <div class="grid">
+        <div class="gridChild">
+            <h2>Length</h2>
+            <div id="lengthCenter">
+                <h3>Kilometers to miles</h3>
+                <input type="number" name="length" id="meKil" placeholder="Kilometers">
+                <button onclick="kilometersConverted()">Convert</button>
+                <input type="text" id="kmToMResult" placeholder="Converted" readonly>
+    
+                <h3>Meters to yards</h3>
+                <input type="number" name="length" id="meMet" placeholder="Meters">
+                <button onclick="metersConverted()">Convert</button>
+                <input type="text" id="meterToYardResult" placeholder="Converted" readonly>
+    
+                <h3>Millimeters to inches</h3>
+                <input type="number" name="length" id="meMil" placeholder="Millimeters">
+                <button onclick="mmConverted()">Convert</button>
+                <input type="text" id="mmToInResult" placeholder="Converted" readonly>
+    
+                <h3>Centimeters to inches</h3>
+                <input type="number" name="length" id="meCm" placeholder="Centimeters">
+                <button onclick="cmConverted()">Convert</button>
+                <input type="text" id="cmToInResult" placeholder="Converted" readonly>
+            </div>
+        </div>
+        
+        <div class="gridChild">
+            <h2>Temperature and Weight</h2>
+            <div id="tempWeightCenter">
+                <h3>Celsius to Fahrenheit</h3>
+                <input type="number" name="temperature" id="meCel" placeholder="Celsius">
+                <button onclick="celsiusConverted()">Convert</button>
+                <input type="text" id="celToFaResult" placeholder="Converted" readonly>
+        
+                <h3>Kelvin to Rankine</h3>
+                <input type="number" name="temperature" id="meKel" placeholder="Kelvin">
+                <button onclick="kelvConverted()">Convert</button>
+                <input type="text" id="kelvToRaResult" placeholder="Converted" readonly>
+        
+                <h3>Kilograms to Pounds</h3>
+                <input type="number" name="weight" id="meKg" placeholder="Kilograms">
+                <button onclick="kilConverted()">Convert</button>
+                <input type="text" id="kgToLbsResult" placeholder="Converted" readonly>
+        
+                <h3>Ounces to Grams</h3>
+                <input type="number" name="weight" id="meOun" placeholder="Ounces">
+                <button onclick="ounceConverted()">Convert</button>
+                <input type="text" id="ounchToGrResult" placeholder="Converted" readonly>
+            </div>
+        </div>
+    </div>
+    
+    <div id="centerConvertButton">
+        <a href="imperial.html"><button id="otherButton">Convert Imperial</button></a>
+    </div>
+    
+</body>
+</html>
