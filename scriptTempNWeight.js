@@ -1,7 +1,7 @@
 //Temperature and weight conversions METRIC
 function celsiusConverted(){
     var celInput = document.getElementById("meCel").value;
-    var fahOutput = celInput * 33.8;
+    var fahOutput = celInput * 9/5 + 32;
     document.getElementById("celToFaResult").value = fahOutput.toFixed(3);
 }
 
